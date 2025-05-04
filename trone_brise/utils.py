@@ -1,23 +1,13 @@
-class Inventory:
-    
-    # The Class Constructor
-    # This one is very basic, it just declares how many items you can fit 
-    # in your inventory and creates an Empty list to keep them!
-    def __init__(self, capacity):
-        self.capacity = capacity
-        self.items = []
-        
-class Item:
+import json
 
-    # The Class Constructor
-    # Creates a basic item, more attrs can be added for more complexity!
-    def __init__(self, name, description, amount, individual_value):
-        self.name = name
-        self.description = description
-        self.amount = amount
-        self.individual_value = individual_value
-    
-    # Property that shows the worth of the item (x amount).
-    @property
-    def worth(self):
-        return f'${self.amount * self.individual_value:.2f}'
+def sauvegarder_partie(scene_actuelle, fichier="data/saves.json"):
+    with open(fichier, "w", encoding="utf-8") as f:
+        json.dump({"scene": scene_actuelle}, f)
+
+def charger_partie(fichier="data/saves.json"):
+    try:
+        with open(fichier, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data.get("scene", "prologue")
+    except FileNotFoundError:
+        return "prologue"
