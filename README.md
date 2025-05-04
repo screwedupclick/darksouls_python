@@ -1,52 +1,129 @@
-# 🕯️ Le Trône Brisé — *Un livre dont vous êtes le héros (Dark Fantasy)*
-> *Projet Python interactif inspiré de l’univers de Dark Souls*
+# 🜂 Le Trône Brisé 🜂
+
+*Un livre dont vous êtes le héros – en terminal, façon Dark Souls*
 
 ---
 
-## 📖 Prologue
+### ⚔️ L'idée
 
-> *"Avant le silence, il y eut le serment.  
-Avant le serment, il y eut la trahison."*
+Un jeu en Python où chaque choix compte.
+Explorez un univers sombre, affrontez des figures brisées, et scellez votre propre destin.
 
-Tu ouvres les yeux dans une salle vide, à l’exception d’un **trône renversé**.  
-Autour de toi, le monde s'effrite lentement, pierre par pierre,  
-comme si **le temps lui-même avait été abandonné**.
+### 💡 Inspirations
 
-Tu ne te souviens de rien.  
-Pas même de ton nom.  
-Seulement d’une sensation persistante :  
-**tu es arrivé trop tard.**
+* **Dark Souls / Elden Ring** : pour l'univers cryptique et gothique
+* **Livres dont vous êtes le héros** : gameplay à embranchements
+* **Text RPG** en terminal
 
-Une silhouette t’observe depuis les hauteurs du hall.  
-Elle ne parle pas, mais tu ressens son jugement.  
-Derrière elle, cinq arches s’ouvrent sur cinq chemins.  
-Aucun ne mène au salut.
-
-> _"Tu es le dernier. Les autres ont échoué.  
-Peut-être n’es-tu même pas réel."_
-
-Dans ce monde en ruine, la **mort n’est pas la fin** —  
-elle est une **langue que tous doivent apprendre**.
-
-Chaque choix t’éloigne ou te rapproche de ce que tu étais.  
-Mais même si tu recouvres ta mémoire, une autre question demeure :  
-> **Était-ce vraiment une bonne chose de s’en souvenir ?**
-
----
-
-## ⚔️ Le concept
-
-**"Le Trône Brisé"** est un projet Python interactif, un *livre dont vous êtes le héros*  
-dans un univers sombre, mystérieux, et brutalement silencieux.
-
-- 🔍 Chaque choix compte
-- ☠️ Chaque erreur a un prix
-- 🧩 Chaque partie révèle un peu plus de la vérité… ou du mensonge
-
----
-
-## ▶️ Prêt à choisir ton chemin ?
+### 🚀 Lancer le jeu
 
 ```bash
-python throne_brise.py
+python main.py
+```
 
+### 📁 Structure
+
+```
+📦 le-trone-brise
+ ┣ 📜 main.py            # Point d'entrée du jeu
+ ┣ 📜 histoire.py        # Texte et structure narrative
+ ┣ 📜 choix.py           # Système de navigation
+ ┣ 📜 utils.py           # Fonctions annexes (affichage, ascii, etc.)
+ ┗ 📜 data/              # Fichiers textes / assets éventuels
+```
+
+---
+
+## 🕯️ Histoire : Le Trône Brisé
+
+> **"Quand les rois cessèrent de brûler, le monde devint froid.
+> Quand le froid toucha les âmes, il n'y eut plus de lumière."**
+
+Le **Trône** était jadis le lien entre le Feu et les Hommes.
+Un pacte d’oubli, forgé dans la cendre et renouvelé dans le sang.
+Mais ceux qui devaient l’occuper ont fui.
+Les lignées se sont éteintes. Le monde s’est figé.
+
+Toi… tu n’es qu’un reste.
+Un souvenir relevé par la volonté du Feu.
+
+---
+
+## 🕯️ Prologue
+
+Tu n’as pas de nom. Tu n’as pas de gloire.
+Seulement un fardeau : **retrouver ceux qui ont fui la cendre.**
+
+> *"Réveille-toi, sans-nom. Le Trône te réclame."*
+
+---
+
+## ⚔️ Les Rois Déchus
+
+Ils étaient cinq.
+
+* **Nyhal, le Souffrant** — crucifié, nourri à la folie.
+* **Sevrane, la Mère Morte** — enceinte d’un fils qui ne vint jamais.
+* **Askern, le Dévoreur** — repu d’âmes hurlantes.
+* **Les Frères d’Orpaille** — jumeaux liés par le silence.
+* Et **Le Cinquième**… dont le nom est effacé partout.
+
+Tu dois les retrouver. Ou les briser.
+Et rallumer le feu dans la salle du Trône.
+
+---
+
+## 🩸 Le Monde en Cendres
+
+Les villes pendent au bord du néant.
+Les dieux ont fermé les yeux.
+Les hommes prient des carcasses.
+
+Tu croises :
+
+* Des fous qui murmurent à des statues.
+* Des chevaliers qui se battent pour ne pas oublier leur nom.
+* Des monstres qui étaient autrefois beaux.
+
+> *"Le feu n’éclaire plus. Il consume."*
+
+---
+
+## 🕳️ Le Trône
+
+Tu retournes enfin au trône. Il est brisé.
+Mais **quelqu’un** t’attend.
+
+> *"Tu ne devais pas revenir.
+> Tu étais censé t’effacer comme les autres."*
+
+C’est **lui**, le Cinquième.
+Celui qui a trahi le feu. Celui qui t’observe avec pitié.
+
+> *"Si tu prends ma place, le cycle recommence.
+> Si tu me laisses, tout finit. Même la douleur."*
+
+---
+
+## 🔥 Le Choix
+
+Deux destins. Aucun retour.
+
+### ☀️ **Rallumer le feu**
+
+Tu prends place sur le Trône.
+Le monde recommence. Tu es oublié. Le feu survit.
+
+### 🕯️ **Laisser le feu mourir**
+
+Tu tournes le dos. Le monde s'effondre.
+Mais il ne souffre plus.
+Tu n’es pas un roi. Tu es **la fin des rois**.
+
+---
+
+> *“Le Trône Brisé” est une fable tragique sur le poids du sacrifice,
+> la vacuité des cycles éternels,
+> et la douce tentation de tout laisser s’éteindre...*
+
+🜁 *Une aventure textuelle sombre, mystique, et inoubliable. Oserez-vous retrouver le Trône ?*
