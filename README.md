@@ -1,4 +1,4 @@
-# 🜂 Le Trône Brisé 🜂
+# 🕯️ Le Trône Brisé 🕯️
 
 *Un livre dont vous êtes le héros – en terminal, façon Dark Souls*
 
